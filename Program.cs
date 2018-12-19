@@ -18,6 +18,19 @@ namespace TabEx07
             }
             Console.WriteLine(Environment.NewLine + Enum.GetName(typeof(week), 4));
 
+            /* Différentes techniques
+            
+            Console.WriteLine(week.Lundi);
+            Console.WriteLine(week.Mardi);
+            Console.WriteLine(week.Mercredi);
+            Console.WriteLine(week.Jeudi);
+            Console.WriteLine(week.Vendredi);
+            Console.WriteLine(week.Samedi);
+            Console.WriteLine(week.Dimanche);
+
+            Console.WriteLine((week)4);
+
+            Console.WriteLine(Enum.GetName(typeof(week)).GetValue(4));*/
         }
     }
 }
